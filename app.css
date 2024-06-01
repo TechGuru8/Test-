@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin:  5px 0;
+    padding: 0;
+    background-color: #cdcae0;
+}
+
+header {
+    background-color: #e2f0cc;
+    color: #030000;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 10px  0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #857979;
+    text-decoration: none;
+}
+
+main {
+    padding: 15px;
+}
+.gallery {
+    display: inline;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    width: 300px;
+    margin: 15px;
+}
+
+.team-member {
+    margin-bottom: 20px;
+}
+
+.team-member img {
+    width: 500px;
+    height: 500px;
+    margin-right: 70px;
+    vertical-align: top;
+}
+
+.about-owner {
+    display: inside; 
+    align-items: bottom;
+    margin: 40px 0;
+}
+
+.about-owner img.owner-img {
+    width: 400px;
+    height: 400px;
+    border-radius: 10;
+    margin-right: 20px;
+}
+.home-image {
+    width: 600px; 
+    height: 400px;
+    display: block;
+    margin-top: 20px;
+
+
+
+}
+.service-image {
+    width: 800px;
+    max-width: 45%; /* Maximum width */
+    height: auto; /* Adjust the height automatically */
+    display: outside;
+    margin-top: 10px;
+}
+
+
+    
